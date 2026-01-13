@@ -1,0 +1,278 @@
+{
+    "sedans": [
+        {
+            "id": "sedan_001",
+            "model": "Luxury Sedan Pro",
+            "variant": "Premium",
+            "type": "sedan",
+            "price": "$45,000",
+            "features": {
+                "engine": "2.0L Turbocharged I4, 250 HP",
+                "transmission": "8-Speed Automatic",
+                "fuel_economy": "28 MPG City / 35 MPG Highway",
+                "safety": "Adaptive Cruise Control, Lane Keep Assist, Automatic Emergency Braking, Blind Spot Monitoring",
+                "technology": "12.3-inch Touchscreen, Apple CarPlay/Android Auto, Premium Sound System, Wireless Charging",
+                "interior": "Leather Seats, Dual-Zone Climate Control, Power Sunroof",
+                "seating": "5 passengers"
+            },
+            "availability": "In Stock",
+            "colors": [
+                "Black",
+                "White",
+                "Silver",
+                "Blue"
+            ]
+        },
+        {
+            "id": "sedan_002",
+            "model": "Executive Sedan",
+            "variant": "Elite",
+            "type": "sedan",
+            "price": "$52,000",
+            "features": {
+                "engine": "3.0L V6, 335 HP",
+                "transmission": "9-Speed Automatic",
+                "fuel_economy": "24 MPG City / 32 MPG Highway",
+                "safety": "360-Degree Camera, Adaptive Cruise Control, Lane Keep Assist, Parking Sensors, Collision Warning",
+                "technology": "14-inch Digital Display, Navigation, Premium Audio, Head-Up Display, Gesture Control",
+                "interior": "Ventilated Leather Seats, Tri-Zone Climate Control, Panoramic Sunroof, Ambient Lighting",
+                "seating": "5 passengers"
+            },
+            "availability": "In Stock",
+            "colors": [
+                "Black",
+                "Gray",
+                "Red",
+                "White"
+            ]
+        },
+        {
+            "id": "sedan_003",
+            "model": "Sport Sedan GT",
+            "variant": "Sport",
+            "type": "sedan",
+            "price": "$38,000",
+            "features": {
+                "engine": "2.5L I4, 203 HP",
+                "transmission": "6-Speed Manual / CVT",
+                "fuel_economy": "30 MPG City / 38 MPG Highway",
+                "safety": "Forward Collision Warning, Lane Departure Warning, Rear Cross Traffic Alert",
+                "technology": "10-inch Touchscreen, Smartphone Integration, 8-Speaker Audio",
+                "interior": "Sport Cloth Seats, Manual Climate Control, Tilt Steering",
+                "seating": "5 passengers"
+            },
+            "availability": "In Stock",
+            "colors": [
+                "Red",
+                "Blue",
+                "Black",
+                "White"
+            ]
+        }
+    ],
+    "suvs": [
+        {
+            "id": "suv_001",
+            "model": "Adventure SUV",
+            "variant": "4WD Premium",
+            "type": "suv",
+            "price": "$48,000",
+            "features": {
+                "engine": "3.5L V6, 295 HP",
+                "transmission": "8-Speed Automatic",
+                "drivetrain": "All-Wheel Drive",
+                "fuel_economy": "21 MPG City / 28 MPG Highway",
+                "safety": "Adaptive Cruise Control, Lane Keep Assist, Blind Spot Monitoring, Rear Cross Traffic Alert, Hill Descent Control",
+                "technology": "12-inch Touchscreen, Navigation, Apple CarPlay/Android Auto, 10-Speaker Premium Audio, WiFi Hotspot",
+                "interior": "Leather Seats, Tri-Zone Climate Control, Power Liftgate, Roof Rails",
+                "seating": "7 passengers",
+                "cargo": "83.9 cubic feet"
+            },
+            "availability": "In Stock",
+            "colors": [
+                "Black",
+                "White",
+                "Silver",
+                "Green",
+                "Blue"
+            ]
+        },
+        {
+            "id": "suv_002",
+            "model": "Urban SUV Compact",
+            "variant": "City Edition",
+            "type": "suv",
+            "price": "$32,000",
+            "features": {
+                "engine": "2.0L I4, 158 HP",
+                "transmission": "CVT",
+                "drivetrain": "Front-Wheel Drive",
+                "fuel_economy": "28 MPG City / 34 MPG Highway",
+                "safety": "Forward Collision Warning, Lane Departure Warning, Automatic Emergency Braking",
+                "technology": "8-inch Touchscreen, Bluetooth, 6-Speaker Audio, Backup Camera",
+                "interior": "Cloth Seats, Dual-Zone Climate Control, 60/40 Split Rear Seats",
+                "seating": "5 passengers",
+                "cargo": "65.4 cubic feet"
+            },
+            "availability": "In Stock",
+            "colors": [
+                "Red",
+                "White",
+                "Gray",
+                "Black"
+            ]
+        },
+        {
+            "id": "suv_003",
+            "model": "Luxury SUV Elite",
+            "variant": "Platinum",
+            "type": "suv",
+            "price": "$68,000",
+            "features": {
+                "engine": "3.6L Twin-Turbo V6, 400 HP",
+                "transmission": "10-Speed Automatic",
+                "drivetrain": "All-Wheel Drive",
+                "fuel_economy": "19 MPG City / 26 MPG Highway",
+                "safety": "360-Degree Camera, Adaptive Cruise Control, Lane Centering, Night Vision, Parking Assist",
+                "technology": "15-inch Touchscreen, Head-Up Display, Premium Sound System, Rear Entertainment, Wireless Charging",
+                "interior": "Nappa Leather, Heated/Cooled Seats, Massaging Front Seats, Panoramic Sunroof, Ambient Lighting",
+                "seating": "7 passengers",
+                "cargo": "90.2 cubic feet"
+            },
+            "availability": "Limited Stock",
+            "colors": [
+                "Black",
+                "White",
+                "Champagne",
+                "Navy Blue"
+            ]
+        }
+    ],
+    "hatchbacks": [
+        {
+            "id": "hatch_001",
+            "model": "City Hatchback",
+            "variant": "Base",
+            "type": "hatchback",
+            "price": "$22,000",
+            "features": {
+                "engine": "1.5L I4, 118 HP",
+                "transmission": "5-Speed Manual / CVT",
+                "fuel_economy": "32 MPG City / 40 MPG Highway",
+                "safety": "Airbags, ABS, Stability Control, Rear Parking Sensors",
+                "technology": "7-inch Touchscreen, Bluetooth, 4-Speaker Audio, USB Ports",
+                "interior": "Cloth Seats, Manual Climate Control, 60/40 Split Rear Seats",
+                "seating": "5 passengers"
+            },
+            "availability": "In Stock",
+            "colors": [
+                "Red",
+                "Blue",
+                "White",
+                "Yellow",
+                "Black"
+            ]
+        },
+        {
+            "id": "hatch_002",
+            "model": "Sport Hatchback RS",
+            "variant": "Performance",
+            "type": "hatchback",
+            "price": "$28,000",
+            "features": {
+                "engine": "1.6L Turbocharged I4, 201 HP",
+                "transmission": "6-Speed Manual",
+                "fuel_economy": "26 MPG City / 33 MPG Highway",
+                "safety": "Forward Collision Warning, Lane Departure Warning, Sport Braking System",
+                "technology": "8-inch Touchscreen, Sport Display, Premium Audio, Sport Mode Selector",
+                "interior": "Sport Bucket Seats, Aluminum Pedals, Sport Steering Wheel",
+                "seating": "5 passengers"
+            },
+            "availability": "In Stock",
+            "colors": [
+                "Red",
+                "Black",
+                "White",
+                "Orange"
+            ]
+        }
+    ],
+    "electric": [
+        {
+            "id": "ev_001",
+            "model": "EcoElectric Sedan",
+            "variant": "Long Range",
+            "type": "electric",
+            "price": "$55,000",
+            "features": {
+                "motor": "Dual Motor AWD, 450 HP",
+                "battery": "85 kWh Lithium-Ion",
+                "range": "350 miles",
+                "charging": "DC Fast Charging (10-80% in 30 min), Level 2 Home Charging",
+                "acceleration": "0-60 mph in 4.2 seconds",
+                "safety": "Autopilot, 360-Degree Camera, Adaptive Cruise Control, Automatic Emergency Braking",
+                "technology": "17-inch Touchscreen, OTA Updates, Premium Audio, WiFi Hotspot, Smartphone App Control",
+                "interior": "Vegan Leather, Heated Seats, Glass Roof, Minimalist Design",
+                "seating": "5 passengers"
+            },
+            "availability": "In Stock",
+            "colors": [
+                "White",
+                "Black",
+                "Blue",
+                "Silver"
+            ]
+        },
+        {
+            "id": "ev_002",
+            "model": "EcoElectric SUV",
+            "variant": "Premium AWD",
+            "type": "electric",
+            "price": "$72,000",
+            "features": {
+                "motor": "Tri-Motor AWD, 600 HP",
+                "battery": "100 kWh Lithium-Ion",
+                "range": "400 miles",
+                "charging": "DC Fast Charging (10-80% in 25 min), Level 2 Home Charging",
+                "acceleration": "0-60 mph in 3.5 seconds",
+                "safety": "Advanced Autopilot, 360-Degree Camera, Adaptive Cruise Control, Parking Assist, Night Vision",
+                "technology": "18-inch Touchscreen, OTA Updates, Premium Sound System, Rear Entertainment, Wireless Charging",
+                "interior": "Premium Vegan Leather, Heated/Cooled Seats, Panoramic Glass Roof, Ambient Lighting",
+                "seating": "7 passengers",
+                "cargo": "88.5 cubic feet"
+            },
+            "availability": "Limited Stock",
+            "colors": [
+                "Black",
+                "White",
+                "Red",
+                "Gray"
+            ]
+        }
+    ],
+    "luxury": [
+        {
+            "id": "lux_001",
+            "model": "Presidential Luxury Sedan",
+            "variant": "Ultimate",
+            "type": "luxury",
+            "price": "$95,000",
+            "features": {
+                "engine": "4.4L Twin-Turbo V8, 523 HP",
+                "transmission": "8-Speed Automatic",
+                "fuel_economy": "17 MPG City / 25 MPG Highway",
+                "safety": "Advanced Driver Assistance, 360-Degree Camera, Night Vision, Parking Assist, Collision Avoidance",
+                "technology": "Dual 12.3-inch Displays, Head-Up Display, Gesture Control, Premium Sound System, Rear Entertainment",
+                "interior": "Hand-Stitched Nappa Leather, Massaging Seats, Executive Rear Seats, Champagne Cooler, Ambient Lighting",
+                "seating": "5 passengers (Executive 4-seat option)"
+            },
+            "availability": "Limited Stock",
+            "colors": [
+                "Black",
+                "White",
+                "Champagne",
+                "Deep Blue"
+            ]
+        }
+    ]
+}

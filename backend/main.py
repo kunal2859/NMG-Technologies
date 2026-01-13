@@ -6,8 +6,11 @@ from fastapi import FastAPI, WebSocket, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from backend.orchestrator import Orchestrator
+from backend.logger import setup_logger
 
-app = FastAPI(title="ShopAssist Voice Agent", version="1.0.0")
+logger = setup_logger(__name__)
+
+app = FastAPI(title="Auto Dealership Voice Assistant", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
@@ -24,13 +27,8 @@ orchestrator = Orchestrator()
 
 @app.websocket("/ws/{client_id}")
 async def websocket_endpoint(websocket: WebSocket, client_id: str):
-    """
-    Handles real-time audio streaming from the client.
-    Receives audio blobs, saves them temporarily, processes them via the Orchestrator,
-    and sends back the AI response (text + audio URL).
-    """
     await websocket.accept()
-    print(f"INFO: Client {client_id} connected via WebSocket.")
+    logger.info(f"Client {client_id} connected via WebSocket")
     
     try:
         while True:
@@ -45,9 +43,9 @@ async def websocket_endpoint(websocket: WebSocket, client_id: str):
             os.remove(temp_filename)
             
     except Exception as e:
-        print(f"WebSocket error: {e}")
+        logger.error(f"WebSocket error for client {client_id}: {e}", exc_info=True)
     finally:
-        print(f"Client {client_id} disconnected")
+        logger.info(f"Client {client_id} disconnected")
 
 @app.get("/summary/{client_id}")
 async def get_summary(client_id: str):

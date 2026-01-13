@@ -1,4 +1,4 @@
-// ShopAssist Frontend Logic
+// Auto Dealership Assistant Frontend Logic
 // Handles audio recording, WebSocket streaming, and UI updates.
 
 const recordBtn = document.getElementById('record-btn');

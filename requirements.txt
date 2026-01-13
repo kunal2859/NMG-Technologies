@@ -1,9 +1,0 @@
-fastapi
-uvicorn
-websockets
-python-dotenv
-google-generativeai
-faster-whisper
-edge-tts
-pydantic
-numpy
